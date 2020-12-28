@@ -6,7 +6,7 @@ from tabulate import tabulate
 try:
     connection = mysql.connector.connect(host='localhost',
                                          user='root',
-                                         password='darshmysql31')  
+                                         password='YOUR_PASSWORD')  
 
     if connection.is_connected():
         db_Info = connection.get_server_info()
@@ -22,7 +22,7 @@ try:
     connection = mysql.connector.connect(host='localhost',
                                          database='EXAM_PORTAL',
                                          user='root',
-                                         password='darshmysql31')  
+                                         password='YOUR_PASSWORD')  
      
     if connection.is_connected():
         db_Info = connection.get_server_info()
