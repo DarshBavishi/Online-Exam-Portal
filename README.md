@@ -4,8 +4,6 @@
 
 #### Siddharth Shah
 
-#### Darsh Bavishi
-
 #### Joy Purohit
 
 ## Technology Stack
